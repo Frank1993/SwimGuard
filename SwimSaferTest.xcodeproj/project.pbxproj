@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B48EDB1B2D133800EB9778 /* PeripheralDetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B48EDA1B2D133800EB9778 /* PeripheralDetailViewViewController.m */; };
+		85B48EDD1B2D241800EB9778 /* Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EDC1B2D241800EB9778 /* Blur.png */; };
+		85B48EE11B2D2B7D00EB9778 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B48EE01B2D2B7D00EB9778 /* VPImageCropperViewController.m */; };
+		85B48EE51B2D390E00EB9778 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EE41B2D390E00EB9778 /* defaultImage.png */; };
+		85B48EE71B2DC26C00EB9778 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EE61B2DC26C00EB9778 /* home@2x.png */; };
+		85B48EE91B2DC27600EB9778 /* settings1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EE81B2DC27600EB9778 /* settings1@2x.png */; };
+		85B48EEB1B2DC2C500EB9778 /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EEA1B2DC2C500EB9778 /* settings1.png */; };
+		85B48EED1B2DC2DC00EB9778 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B48EEC1B2DC2DC00EB9778 /* home.png */; };
 		85C7E3371B2912BF002FC720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7E3361B2912BF002FC720 /* main.m */; };
 		85C7E33A1B2912BF002FC720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7E3391B2912BF002FC720 /* AppDelegate.m */; };
 		85C7E33D1B2912BF002FC720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7E33C1B2912BF002FC720 /* ViewController.m */; };
@@ -14,6 +22,21 @@
 		85C7E3421B2912BF002FC720 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C7E3411B2912BF002FC720 /* Images.xcassets */; };
 		85C7E3451B2912BF002FC720 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C7E3431B2912BF002FC720 /* LaunchScreen.xib */; };
 		85C7E3511B2912C0002FC720 /* SwimSaferTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7E3501B2912C0002FC720 /* SwimSaferTestTests.m */; };
+		85C7E35B1B2922CC002FC720 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7E35A1B2922CC002FC720 /* CoreBluetooth.framework */; };
+		85C7E35D1B2922E2002FC720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7E35C1B2922E2002FC720 /* Foundation.framework */; };
+		85C7E3601B293118002FC720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7E35F1B293118002FC720 /* UIKit.framework */; };
+		85C7E3621B293127002FC720 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7E3611B293127002FC720 /* AudioToolbox.framework */; };
+		85C7E3641B293136002FC720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C7E3631B293136002FC720 /* CoreGraphics.framework */; };
+		85C7E36D1B29577C002FC720 /* DiscoverdDevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7E36C1B29577C002FC720 /* DiscoverdDevicesTableViewController.m */; };
+		85C7E36F1B2AD8F2002FC720 /* ALARM.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 85C7E36E1B2AD8F2002FC720 /* ALARM.WAV */; };
+		85E433421B2FCFE90052BA07 /* DevicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E433411B2FCFE90052BA07 /* DevicesTableViewCell.m */; };
+		85EC72851B2ED4F8004BF6ED /* AppSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC72841B2ED4F8004BF6ED /* AppSettingTableViewController.m */; };
+		85EC72871B2ED7BA004BF6ED /* file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC72861B2ED7BA004BF6ED /* file@2x.png */; };
+		85EC72891B2ED7CE004BF6ED /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC72881B2ED7CE004BF6ED /* alert@2x.png */; };
+		85EC728B1B2ED7E4004BF6ED /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC728A1B2ED7E4004BF6ED /* user@2x.png */; };
+		85EC728D1B2ED7FA004BF6ED /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC728C1B2ED7FA004BF6ED /* user.png */; };
+		85EC728F1B2ED805004BF6ED /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC728E1B2ED805004BF6ED /* file.png */; };
+		85EC72911B2ED80E004BF6ED /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 85EC72901B2ED80E004BF6ED /* alert.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85B48ED91B2D133800EB9778 /* PeripheralDetailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralDetailViewViewController.h; sourceTree = "<group>"; };
+		85B48EDA1B2D133800EB9778 /* PeripheralDetailViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralDetailViewViewController.m; sourceTree = "<group>"; };
+		85B48EDC1B2D241800EB9778 /* Blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blur.png; sourceTree = "<group>"; };
+		85B48EDF1B2D2B7D00EB9778 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		85B48EE01B2D2B7D00EB9778 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
+		85B48EE41B2D390E00EB9778 /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+		85B48EE61B2DC26C00EB9778 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		85B48EE81B2DC27600EB9778 /* settings1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings1@2x.png"; sourceTree = "<group>"; };
+		85B48EEA1B2DC2C500EB9778 /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
+		85B48EEC1B2DC2DC00EB9778 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		85C7E3311B2912BF002FC720 /* SwimSaferTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimSaferTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C7E3351B2912BF002FC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C7E3361B2912BF002FC720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +73,24 @@
 		85C7E34A1B2912C0002FC720 /* SwimSaferTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimSaferTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C7E34F1B2912C0002FC720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C7E3501B2912C0002FC720 /* SwimSaferTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimSaferTestTests.m; sourceTree = "<group>"; };
+		85C7E35A1B2922CC002FC720 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		85C7E35C1B2922E2002FC720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85C7E35F1B293118002FC720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85C7E3611B293127002FC720 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		85C7E3631B293136002FC720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85C7E36B1B29577C002FC720 /* DiscoverdDevicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverdDevicesTableViewController.h; sourceTree = "<group>"; };
+		85C7E36C1B29577C002FC720 /* DiscoverdDevicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverdDevicesTableViewController.m; sourceTree = "<group>"; };
+		85C7E36E1B2AD8F2002FC720 /* ALARM.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ALARM.WAV; sourceTree = "<group>"; };
+		85E433401B2FCFE90052BA07 /* DevicesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesTableViewCell.h; sourceTree = "<group>"; };
+		85E433411B2FCFE90052BA07 /* DevicesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesTableViewCell.m; sourceTree = "<group>"; };
+		85EC72831B2ED4F8004BF6ED /* AppSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettingTableViewController.h; sourceTree = "<group>"; };
+		85EC72841B2ED4F8004BF6ED /* AppSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettingTableViewController.m; sourceTree = "<group>"; };
+		85EC72861B2ED7BA004BF6ED /* file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file@2x.png"; sourceTree = "<group>"; };
+		85EC72881B2ED7CE004BF6ED /* alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@2x.png"; sourceTree = "<group>"; };
+		85EC728A1B2ED7E4004BF6ED /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
+		85EC728C1B2ED7FA004BF6ED /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		85EC728E1B2ED805004BF6ED /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		85EC72901B2ED80E004BF6ED /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C7E3641B293136002FC720 /* CoreGraphics.framework in Frameworks */,
+				85C7E3621B293127002FC720 /* AudioToolbox.framework in Frameworks */,
+				85C7E3601B293118002FC720 /* UIKit.framework in Frameworks */,
+				85C7E35D1B2922E2002FC720 /* Foundation.framework in Frameworks */,
+				85C7E35B1B2922CC002FC720 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +116,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B48EDE1B2D2B7D00EB9778 /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				85B48EDF1B2D2B7D00EB9778 /* VPImageCropperViewController.h */,
+				85B48EE01B2D2B7D00EB9778 /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
 		85C7E3281B2912BF002FC720 = {
 			isa = PBXGroup;
 			children = (
 				85C7E3331B2912BF002FC720 /* SwimSaferTest */,
 				85C7E34D1B2912C0002FC720 /* SwimSaferTestTests */,
+				85C7E35E1B2922ED002FC720 /* Framwork */,
 				85C7E3321B2912BF002FC720 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +151,29 @@
 				85C7E3391B2912BF002FC720 /* AppDelegate.m */,
 				85C7E33B1B2912BF002FC720 /* ViewController.h */,
 				85C7E33C1B2912BF002FC720 /* ViewController.m */,
+				85E433401B2FCFE90052BA07 /* DevicesTableViewCell.h */,
+				85E433411B2FCFE90052BA07 /* DevicesTableViewCell.m */,
+				85C7E36E1B2AD8F2002FC720 /* ALARM.WAV */,
+				85C7E36B1B29577C002FC720 /* DiscoverdDevicesTableViewController.h */,
+				85C7E36C1B29577C002FC720 /* DiscoverdDevicesTableViewController.m */,
+				85B48ED91B2D133800EB9778 /* PeripheralDetailViewViewController.h */,
+				85B48EDA1B2D133800EB9778 /* PeripheralDetailViewViewController.m */,
+				85EC72831B2ED4F8004BF6ED /* AppSettingTableViewController.h */,
+				85EC72841B2ED4F8004BF6ED /* AppSettingTableViewController.m */,
+				85B48EDE1B2D2B7D00EB9778 /* VPImageCropper */,
 				85C7E33E1B2912BF002FC720 /* Main.storyboard */,
+				85B48EDC1B2D241800EB9778 /* Blur.png */,
+				85B48EE41B2D390E00EB9778 /* defaultImage.png */,
+				85B48EE61B2DC26C00EB9778 /* home@2x.png */,
+				85B48EE81B2DC27600EB9778 /* settings1@2x.png */,
+				85B48EEA1B2DC2C500EB9778 /* settings1.png */,
+				85B48EEC1B2DC2DC00EB9778 /* home.png */,
+				85EC72861B2ED7BA004BF6ED /* file@2x.png */,
+				85EC72881B2ED7CE004BF6ED /* alert@2x.png */,
+				85EC728A1B2ED7E4004BF6ED /* user@2x.png */,
+				85EC728C1B2ED7FA004BF6ED /* user.png */,
+				85EC728E1B2ED805004BF6ED /* file.png */,
+				85EC72901B2ED80E004BF6ED /* alert.png */,
 				85C7E3411B2912BF002FC720 /* Images.xcassets */,
 				85C7E3431B2912BF002FC720 /* LaunchScreen.xib */,
 				85C7E3341B2912BF002FC720 /* Supporting Files */,
@@ -117,6 +205,18 @@
 				85C7E34F1B2912C0002FC720 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C7E35E1B2922ED002FC720 /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+				85C7E3631B293136002FC720 /* CoreGraphics.framework */,
+				85C7E3611B293127002FC720 /* AudioToolbox.framework */,
+				85C7E35F1B293118002FC720 /* UIKit.framework */,
+				85C7E35C1B2922E2002FC720 /* Foundation.framework */,
+				85C7E35A1B2922CC002FC720 /* CoreBluetooth.framework */,
+			);
+			name = Framwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +268,11 @@
 				TargetAttributes = {
 					85C7E3301B2912BF002FC720 = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					85C7E3491B2912C0002FC720 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,8 +304,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B48EEB1B2DC2C500EB9778 /* settings1.png in Resources */,
+				85EC72871B2ED7BA004BF6ED /* file@2x.png in Resources */,
 				85C7E3401B2912BF002FC720 /* Main.storyboard in Resources */,
+				85B48EE51B2D390E00EB9778 /* defaultImage.png in Resources */,
+				85EC72911B2ED80E004BF6ED /* alert.png in Resources */,
+				85EC728D1B2ED7FA004BF6ED /* user.png in Resources */,
+				85B48EE91B2DC27600EB9778 /* settings1@2x.png in Resources */,
+				85B48EE71B2DC26C00EB9778 /* home@2x.png in Resources */,
 				85C7E3451B2912BF002FC720 /* LaunchScreen.xib in Resources */,
+				85B48EED1B2DC2DC00EB9778 /* home.png in Resources */,
+				85EC72891B2ED7CE004BF6ED /* alert@2x.png in Resources */,
+				85B48EDD1B2D241800EB9778 /* Blur.png in Resources */,
+				85EC728F1B2ED805004BF6ED /* file.png in Resources */,
+				85C7E36F1B2AD8F2002FC720 /* ALARM.WAV in Resources */,
+				85EC728B1B2ED7E4004BF6ED /* user@2x.png in Resources */,
 				85C7E3421B2912BF002FC720 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C7E33D1B2912BF002FC720 /* ViewController.m in Sources */,
+				85C7E36D1B29577C002FC720 /* DiscoverdDevicesTableViewController.m in Sources */,
+				85EC72851B2ED4F8004BF6ED /* AppSettingTableViewController.m in Sources */,
+				85B48EE11B2D2B7D00EB9778 /* VPImageCropperViewController.m in Sources */,
 				85C7E33A1B2912BF002FC720 /* AppDelegate.m in Sources */,
 				85C7E3371B2912BF002FC720 /* main.m in Sources */,
+				85B48EDB1B2D133800EB9778 /* PeripheralDetailViewViewController.m in Sources */,
+				85E433421B2FCFE90052BA07 /* DevicesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwimSaferTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwimSaferTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +541,7 @@
 				85C7E3561B2912C0002FC720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85C7E3571B2912C0002FC720 /* Build configuration list for PBXNativeTarget "SwimSaferTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +550,7 @@
 				85C7E3591B2912C0002FC720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
