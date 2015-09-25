@@ -54,7 +54,7 @@
     self.backgroundTaskIdentifier =[[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
         [[UIApplication sharedApplication] endBackgroundTask:self.backgroundTaskIdentifier];
     }];
-    CGRect frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    CGRect frame = CGRectMake(0, self.navigationController.navigationBar.frame.size.height+15, self.view.frame.size.width, self.view.frame.size.height);
     self.devicesTableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
     self.devicesTableView.delegate = self;
     self.devicesTableView.dataSource = self;
